@@ -28,7 +28,7 @@ getData();
         <div v-if="is_fetched" v-for="e in data" class="flex justify-center">
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
                 <img class="" src="https://placewaifu.com/image/200" height="50" alt="Sunset in the mountains">
-                <div class="py-4">
+                <div class="px-2 py-4">
                     <div class="font-bold text-xl mb-2">{{e.title}}</div>
                     <div class="text-gray-700 text-base">
                         {{ e.genre  }}
