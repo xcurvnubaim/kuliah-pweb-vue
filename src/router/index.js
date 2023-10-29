@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/tugasnine',
       name: 'tugasnine',
       component: () => import('../views/tugasnine.vue')
+    },
+    {
+      path: '/jajalfetch',
+      name: 'jajalfetch',
+      component: () => import('../views/jajalfetch.vue')
     }
   ]
 })
