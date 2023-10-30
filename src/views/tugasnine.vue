@@ -27,18 +27,18 @@
 <template>
   <div>
     <label>Number 1</label><br />
-    <input id="number1" type="number" placeholder="Number 1" v-model="number_1" />
+    <input class="border border-black" id="number1" type="number" placeholder="Number 1" v-model="number_1" />
   </div>
   <div>
     <label>Number 2</label><br />
-    <input id="number2" type="number" placeholder="Number 2" v-model="number_2"/>
+    <input class="border border-black" id="number2" type="number" placeholder="Number 2" v-model="number_2"/>
   </div>
 
   <div>
-    <button @click="plus">+</button>
-    <button @click="minus">-</button>
-    <button @click="multiply">*</button>
-    <button @click="divide">/</button>
+    <button class="bg-gray-300 px-3 py-2" @click="plus">+</button>
+    <button class="bg-gray-300 px-3 py-2" @click="minus">-</button>
+    <button class="bg-gray-300 px-3 py-2" @click="multiply">*</button>
+    <button class="bg-gray-300 px-3 py-2" @click="divide">/</button>
   </div>
   
   <p id="result">Result : {{ result }}</p>
